@@ -90,5 +90,5 @@ if __name__ == '__main__':
 	episode_number = validate_user_input('Enter an episode number: ')
 	limit = validate_user_input('How many additional episodes do you want to get? -1 for the remainder: ')
 	notes = get_episodes(episode_number, limit)
-	output_file = 'Episode Notes.csv'
+	output_file = '../output/Episode Notes.csv'
 	write_notes(notes, output_file)
